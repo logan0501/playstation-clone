@@ -7,7 +7,7 @@ import CarImg from "./assets/carimg.jpg";
 export default function Gamingbody(){
     return (
         <div>
-                 <section>
+            <section>
             <div className="gameswatch">
                 <img src={Bg1} alt="" className="gamesbg1"/>
                 <div className="blkoverlay">

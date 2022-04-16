@@ -5,17 +5,20 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from "./Home";
+import Gaming from "./Gaming";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-      <Route path="/" element={<Home />} />
-      </Routes>
+    // <Router>
+    //   <Routes>
+    //   <Route path="/" element={<Home />} >
+    //     <Route path="home" element={<Home />} />
+    //   </Route>
+  
+    //   </Routes>
 
-    </Router>
-
+    // </Router>
+    <Gaming />
   );
 }
 
